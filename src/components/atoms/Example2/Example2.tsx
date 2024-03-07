@@ -4,8 +4,8 @@ type ExampleProps = {
   children?: ReactNode;
 };
 
-export const Example = ({ children }: ExampleProps) => (
-  <div className="bg-red-900">
+export const Example2 = ({ children }: ExampleProps) => (
+  <div className="bg-yellow-500">
     <h1>{children}</h1>
   </div>
 );
